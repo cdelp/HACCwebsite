@@ -22,6 +22,6 @@ response = requests.get(url)
 if response.status_code == 200:
     data = response.json()
 
-for n, loop in enumerate(data):\n
+for n, loop in enumerate(data):<br>
     print ("Record ", n)
     print (data[n], '\n')
