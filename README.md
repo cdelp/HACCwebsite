@@ -23,5 +23,5 @@ if response.status_code == 200:
     data = response.json()
 
 for n, loop in enumerate(data):<br>
-    <span style="margin-left:2em>print ("Record ", n)</span><br>
-    <t>print (data[n], '\n')
+    print ("Record ", n)<br>
+    print (data[n], '\n')
