@@ -14,10 +14,8 @@ Within the "hcaaSite" folder, py files can be edited as needed.
 To access Hawaii Open Data Socrata database see this python example (change url as needed)
 (requires "pip install requests" and "pip install sodapy")
 
-# from api, using Python Requests
 import requests
 
-#url = "https://data.hawaii.gov/resource/u76e-fv4g.json"
 url = "https://data.hawaii.gov/resource/u76e-fv4g.json?candidate_name=Bean, Tracy"
 
 response = requests.get(url)
