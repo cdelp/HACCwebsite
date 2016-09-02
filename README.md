@@ -3,7 +3,7 @@
 This is the initial Django framework for an Election Information website being created for HACC. CSS and page templates were taken from Bootstrap.
 
 The project is "testSite".
-Within this folder, "webapp" is currently and unused web application template.
+Within this folder, "webapp" is currently an unused web application template.
 Within the "testSite" folder, overall project changes can be made in the settings.py and urls.py files.
 
 Within the "hcaaSite" folder, py files can be edited as needed.
